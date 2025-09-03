@@ -1,2 +1,12 @@
-package org.example.haoaiagent.Consetent;public interface FileConstant {
+package org.example.haoaiagent.Consetent;
+
+/**
+ * 文件常量
+ */
+
+public interface FileConstant {
+    /**
+     * 文件保存目录
+     */
+    String FILE_SAVE_DIR = System.getProperty("user.dir") + "/tmp";
 }

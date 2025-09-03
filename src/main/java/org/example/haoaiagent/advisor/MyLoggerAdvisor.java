@@ -33,7 +33,7 @@ public class MyLoggerAdvisor implements CallAroundAdvisor, StreamAroundAdvisor {
 
     private AdvisedRequest before(AdvisedRequest request) {
         log.info("AI Request: {}", request.userText()); // 现在 log 变量应该可以被识别了
-        return request;
+         return request;
     }
 
     private void observeAfter(AdvisedResponse advisedResponse) {
